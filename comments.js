@@ -21,9 +21,3 @@ function start(route, handle) {
   http.createServer(onRequest).listen(8888);
   console.log("Server has started.");
 }
-
-// shutdown web server
-function shutdown() {
-  console.log("Shutting down the server...");
-  process.exit();
-}
