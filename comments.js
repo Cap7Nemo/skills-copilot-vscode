@@ -1,4 +1,4 @@
-// create web server
+// Create web server
 function start(route, handle) {
   function onRequest(request, response) {
     var postData = "";
